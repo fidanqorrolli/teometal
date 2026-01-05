@@ -3,10 +3,10 @@
 export const businessInfo = {
   name: "Teo Metal",
   tagline: "Punime Profesionale me Metal",
-  description: "Shkallë hekuri emergjente, rrethoja, konstruksione metalike dhe punime sipas porosisë në Shtime dhe rrethinë.",
+  description: "Shkallë emergjente, rrethoja, gilindera, konstruksione metalike dhe punime të ndryshme sipas porosisë.",
   phone: "+383 44 561 777",
   phoneClean: "38344561777",
-  email: "office@teometal.com",
+  email: "info.teometal@gmail.com",
   address: {
     street: "Rruga Burimi nr. 88",
     village: "Fshati Rashincë",
@@ -27,7 +27,7 @@ export const whyUsPoints = [
   {
     id: 2,
     icon: "Ruler",
-    title: "Punime sipas masës",
+    title: "Punime sipas porosisë",
     description: "Realizojmë projekte sipas masave dhe kërkesave tuaja specifike."
   },
   {
@@ -39,7 +39,7 @@ export const whyUsPoints = [
   {
     id: 4,
     icon: "CheckCircle",
-    title: "Zgjidhje të sigurta",
+    title: "Zgjidhje e sigurt",
     description: "Ofrojmë zgjidhje të sigurta dhe të qëndrueshme për çdo projekt."
   }
 ];
@@ -48,7 +48,7 @@ export const services = [
   {
     id: 1,
     icon: "Stairs",
-    title: "Shkallë hekuri emergjente",
+    title: "Shkallë emergjente",
     description: "Shkallë të sigurta, standarde dhe të qëndrueshme për çdo lloj ndërtese. Projektohen sipas normave të sigurisë."
   },
   {
@@ -60,14 +60,14 @@ export const services = [
   {
     id: 3,
     icon: "Fence",
-    title: "Rrethoja dhe porta",
-    description: "Rrethoja të thjeshta ose dekorative, porta automatike dhe manuale sipas porosisë."
+    title: "Rrethoja dhe dyrë",
+    description: "Rrethoja të thjeshta ose dekorative, dyrë automatike dhe manuale sipas porosisë."
   },
   {
     id: 4,
     icon: "Cylinder",
     title: "Gilindera",
-    description: "Punime cilindrike të ndryshme sipas kërkesës dhe specifikimeve teknike."
+    description: "Punim gilinderave të ndryshme sipas kërkesës dhe specifikimeve."
   },
   {
     id: 5,
