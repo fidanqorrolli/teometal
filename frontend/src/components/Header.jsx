@@ -40,11 +40,14 @@ const Header = () => {
             className="flex items-center gap-3 group"
           >
             <div className="relative">
-              <div className="w-12 h-12 bg-gradient-to-br from-sky-500 to-blue-600 flex items-center justify-center rounded-xl shadow-lg shadow-sky-500/30 group-hover:shadow-sky-500/50 transition-all duration-300">
-                <span className="text-white font-bold text-2xl">T</span>
-              </div>
-              <div className="absolute -bottom-1 -right-1 w-4 h-4 bg-amber-400 rounded-full border-2 border-white" />
-            </div>
+      <div className="w-12 h-12 md:w-14 md:h-14 rounded-xl overflow-hidden bg-white/90 shadow-lg shadow-slate-900/10">
+        <img
+          src="/logo.png"
+          alt="Teo Metal"
+          className="w-full h-full object-contain p-1"
+          />
+          </div>
+          </div>
             <div className="flex flex-col">
               <span className={`font-bold text-xl tracking-tight transition-colors duration-300 ${
                 isScrolled ? 'text-slate-800' : 'text-white'
