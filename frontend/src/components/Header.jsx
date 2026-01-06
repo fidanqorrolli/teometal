@@ -44,7 +44,7 @@ const Header = () => {
         <img
           src="/logo.png"
           alt="Teo Metal"
-          className="w-full h-full object-contain p-1"
+          className="w-full h-full object-contain p-0"
           />
           </div>
           </div>
