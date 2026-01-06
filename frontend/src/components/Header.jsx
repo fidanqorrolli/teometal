@@ -40,11 +40,12 @@ const Header = () => {
             className="flex items-center gap-3 group"
           >
             <div className="relative">
-      <div className="w-12 h-12 md:w-14 md:h-14 rounded-xl overflow-hidden bg-white/90 shadow-lg shadow-slate-900/10">
+      <div className="w-20 h-20 md:w-24 md:h-24 rounded-xl overflow-hidden bg-white/90">
+
         <img
           src="/logo.png"
           alt="Teo Metal"
-          className="w-full h-full object-contain p-0"
+          className="w-full h-full object-contain"
           />
           </div>
           </div>
