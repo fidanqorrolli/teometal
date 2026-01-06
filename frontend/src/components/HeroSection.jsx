@@ -21,7 +21,7 @@ const HeroSection = ({ onRequestQuote }) => {
             {/* Badge */}
             <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 px-4 py-2 rounded-full mb-8">
               <div className="w-2 h-2 bg-sky-400 rounded-full animate-pulse" />
-              <span className="text-sky-200 text-sm font-medium">Aktiv që nga 2015</span>
+              <span className="text-sky-200 text-sm font-medium">Aktiv që nga 2001</span>
             </div>
 
             {/* Main Heading */}
@@ -40,7 +40,7 @@ const HeroSection = ({ onRequestQuote }) => {
 
             {/* Description */}
             <p className="text-slate-400 text-lg leading-relaxed mb-10 max-w-lg">
-              Shkallë hekuri emergjente, rrethoja, konstruksione metalike dhe punime sipas porosisë me cilësi të lartë.
+              Shkallë emergjente,gilindera, rrethoja, dyrë, konstruksione metalike dhe punime sipas porosisë me cilësi të lartë.
             </p>
 
             {/* CTA Buttons */}
