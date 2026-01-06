@@ -67,7 +67,7 @@ const HeroSection = ({ onRequestQuote }) => {
             {/* Stats */}
             <div className="grid grid-cols-3 gap-6 pt-8 border-t border-white/10">
               <div className="text-center sm:text-left">
-                <div className="text-3xl md:text-4xl font-bold text-white mb-1">10+</div>
+                <div className="text-3xl md:text-4xl font-bold text-white mb-1">25+</div>
                 <div className="text-sm text-slate-400">Vite Eksperiencë</div>
               </div>
               <div className="text-center sm:text-left">
@@ -76,7 +76,7 @@ const HeroSection = ({ onRequestQuote }) => {
               </div>
               <div className="text-center sm:text-left">
                 <div className="text-3xl md:text-4xl font-bold text-white mb-1">100%</div>
-                <div className="text-sm text-slate-400">Kënaqësi</div>
+                <div className="text-sm text-slate-400">Cilësi dhe besueshmëri</div>
               </div>
             </div>
           </div>
