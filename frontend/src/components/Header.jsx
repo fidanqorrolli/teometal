@@ -39,13 +39,13 @@ const Header = () => {
             onClick={(e) => { e.preventDefault(); scrollToSection('#home'); }}
             className="flex items-center gap-3 group"
           >
-            <div className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 rounded-xl overflow-hidden bg-white/90 shadow-lg shadow-slate-900/10">
-  <img
-    src="/logo.png"
-    alt="Teo Metal"
-    className="w-full h-full object-contain scale-110"
-  />
-</div>
+          <div className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 rounded-xl overflow-hidden bg-white/90 shadow-lg shadow-slate-900/10">
+        <img
+            src="/logo.png"
+            alt="Teo Metal"
+            className="w-full h-full object-contain scale-110"
+        />
+            </div>
           </div>
             <div className="flex flex-col">
               <span className={`font-bold text-2xl tracking-tight transition-colors duration-300 ${
