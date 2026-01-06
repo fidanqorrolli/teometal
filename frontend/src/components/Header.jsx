@@ -49,8 +49,8 @@ const Header = () => {
           </div>
           </div>
             <div className="flex flex-col">
-              <span className={`font-bold text-xl tracking-tight transition-colors duration-300 ${
-                isScrolled ? 'text-slate-800' : 'text-white'
+              <span className={`font-bold text-2xl tracking-tight transition-colors duration-300 ${
+              isScrolled ? 'text-slate-800' : 'text-white'
               }`}>
                 Teo Metal
               </span>
