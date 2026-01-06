@@ -34,7 +34,7 @@ const HeroSection = ({ onRequestQuote }) => {
             <div className="flex items-start gap-4 mb-8">
               <div className="w-1 h-16 bg-gradient-to-b from-sky-400 to-blue-500 rounded-full mt-1" />
               <p className="text-xl md:text-2xl text-slate-300 font-light leading-relaxed">
-                Punime profesionale me metal në Shtime dhe rrethinë
+                Prodhim dhe montim profesional i të gjitha punimeve metalike sipas kërkesës suaj.
               </p>
             </div>
 
