@@ -2,6 +2,7 @@ import React from 'react';
 import { Phone, FileText, Play, ChevronDown, Hammer, Shield, Clock } from 'lucide-react';
 import { Button } from './ui/button';
 import { businessInfo } from '../data/mock';
+import HeroSlider from './HeroSlider';
 
 const HeroSection = ({ onRequestQuote }) => {
   return (
@@ -82,12 +83,9 @@ const HeroSection = ({ onRequestQuote }) => {
           </div>
 
           {/* Right Content - Visual */}
-          <div className="order-1 lg:order-2 relative">
-            {/* Main Image Container */}
-            <div className="relative">
-              {/* Decorative elements */}
-              <div className="absolute -top-8 -left-8 w-32 h-32 border-2 border-sky-500/30 rounded-3xl" />
-              <div className="absolute -bottom-8 -right-8 w-32 h-32 bg-gradient-to-br from-sky-500/20 to-blue-500/20 rounded-3xl" />
+<div className="order-1 lg:order-2 relative">
+  <HeroSlider />
+</div>
               
               {/* Image placeholder with gradient */}
               <div className="relative aspect-[4/3] bg-gradient-to-br from-slate-700 to-slate-800 rounded-3xl overflow-hidden shadow-2xl">
